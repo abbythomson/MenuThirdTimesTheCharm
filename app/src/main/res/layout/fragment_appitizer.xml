@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="104dp"
+        android:id="@+id/imageView"
+        android:contentDescription="@string/ui_tabname_breakfast"
+        android:orientation="horizontal"
+        android:src="@drawable/french_fries" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        app:srcCompat="@drawable/cheese_curds"
+        android:id="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        app:srcCompat="@drawable/nachos"
+        android:id="@+id/imageView3" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appGroup">
+
+        <RadioButton
+            android:text="@string/french_fri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fries"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/cheese_curds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cuds"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/nachos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nachos"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/noneApp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+    <Button
+        android:text="@string/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calcApp" />
+
+</LinearLayout>

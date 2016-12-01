@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MenuThirdTimesTheCharm</string>
+    <string name="ui_tabname_breakfast">Breakfast</string>
+    <string name="ui_tabname_lunch">Lunch</string>
+    <string name="ui_tabname_snack">Snack</string>
+    <string name="ui_tabname_dinner">Dinner</string>
+
+    <string name="ui_tabname_appitizer">Appitizer</string>
+    <string name="ui_tabname_entree">Entree</string>
+    <string name="ui_tabname_desert">Desert</string>
+    <string name="french_fri">French Fries $3.00</string>
+    <string name="cheese_curds">Cheese Curds $3.50</string>
+    <string name="nachos">Nachos $3.00</string>
+    <string name="burger">Burger $7.00</string>
+    <string name="sandwich">Sandwich $6.50</string>
+    <string name="mac_n_cheese">Mac-N-Cheese $6.50</string>
+    <string name="cookie">Coookie $2.00</string>
+    <string name="pie">Apple Pie $3.00</string>
+    <string name="ice_cream">Ice Creame $2.50</string>
+    <string name="none">None</string>
+    <string name="total">Caculate Total</string>
+    <string name="totalT">Total</string>
+</resources>

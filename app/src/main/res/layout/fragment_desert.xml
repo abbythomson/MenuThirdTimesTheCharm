@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/black"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:id="@+id/imageView"
+        android:contentDescription="@string/ui_tabname_lunch"
+        android:src="@drawable/apple_pie"
+        app:srcCompat="@drawable/apple_pie" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        app:srcCompat="@drawable/ice_creame"
+        android:id="@+id/imageView4"
+        android:layout_weight="0.06" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        app:srcCompat="@drawable/cookie"
+        android:id="@+id/imageView5" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:id="@+id/desGroup">
+
+        <RadioButton
+            android:text="@string/pie"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:id="@+id/pie"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:text="@string/ice_cream"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/iceCream"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:text="@string/cookie"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:id="@+id/cookie"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:text="@string/none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/noneDes"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+
+    </RadioGroup>
+
+    <Button
+        android:text="@string/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calcDes" />
+
+</LinearLayout>
